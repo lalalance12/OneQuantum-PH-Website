@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+    <h1>Home Page</h1>
+    <a href="{{url_for('pages.about_us')}}">About</a>
+    <a href="{{url_for('pages.contacts')}}">Contact</a>
+    <a href="{{url_for('pages.services')}}">Services</a>    
+{% endblock %}
