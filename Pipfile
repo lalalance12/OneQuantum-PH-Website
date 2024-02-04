@@ -7,6 +7,8 @@ name = "pypi"
 flask = "2.3.3"
 werkzeug = "*"
 flask-wtf = "*"
+flask-socketio = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
