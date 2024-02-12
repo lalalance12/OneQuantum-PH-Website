@@ -3,5 +3,48 @@
 {% block title %}Home{% endblock title %}
 
 {% block content %}
-    <h1>Home Page</h1>
+    <div class="intro">
+        <img src="{{ url_for('static', filename='img/QC 1.jpg') }}" alt="quantum computer">
+        <h1>The Quantum Computing Society of the Philippines</h1> 
+    </div>
+
+    <section class="first-section">
+        <div class="title">
+            <img src="{{ url_for('static', filename='img/Logo 1.png') }}" alt="Logo">
+            <h2>OneQuantum Philippines</h2>
+        </div>
+        <div class="def">
+            <p>It is a community-driven organization dedicated to promoting awareness, education, and collaboration in the field of quantum computing within the Philippines.</p>
+            
+            <p>The Quantum Computing Society of the Philippines is committed to nurturing a thriving quantum computing community, fostering innovation and excellence in research, education, and entrepreneurship, and positioning the Philippines as a leading hub for quantum computing expertise and innovation in the region.</p>
+
+            
+        </div>
+        
+    </section>
+
+    <section class="second-section">
+        <div>
+            <h2>Our Mission</h2>
+            <p>to foster a vibrant quantum ecosystem in the country</p>
+        </div>
+
+        <div>
+            <h2>Our Vission</h2>
+            <p>to position the Philippines as a leading hub for quantum research, innovation, and application.</p>
+        </div>
+    </section>
+
+    <footer> 
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/Logo 1.jpg') }}" alt="quantum computer"></div>
+        <div>
+            <h2>Connect with us</h2>
+            <p>Facebook</p>
+            <p>Twitter</p>
+            <p>Instagram</p>
+        </div>
+       
+        <p>© 2021 OneQuantum Philippines</p>
+    </footer>
 {% endblock %}
