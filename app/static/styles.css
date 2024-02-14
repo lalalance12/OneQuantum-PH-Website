@@ -112,6 +112,33 @@ body {
 }
 
 
-section:not(:last-child) {
+section:not(:last-of-type) {
     border-bottom: 1px solid #000; 
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #2b054a;
+    color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+}
+
+footer img{
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.first-sec-footer{
+    margin-right: 45%;
+    padding:0;
+}
+
+footer a{
+    display: block;
 }
