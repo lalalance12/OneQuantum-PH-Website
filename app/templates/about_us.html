@@ -3,5 +3,62 @@
 {% block title %}About Us{% endblock title %}
 
 {% block content %}
-    <h1>About us page</h1>
+    <header>
+        <h1>About Us</h1>
+    </header>
+
+    <section class="first-section-au">
+        <p>It is a community-driven organization dedicated to promoting awareness, education, and collaboration in the field of quantum computing within the Philippines.</p>
+    </section>
+
+    <section class="second-section-au">
+        <div class="card1">
+            <h2>Our Mission</h2>
+            <p>to foster a vibrant quantum ecosystem in the country</p>
+        </div>
+
+        <div class="card1">
+            <h2>Our Vission</h2>
+            <p>to position the Philippines as a leading hub for quantum research, innovation, and application.</p>
+        </div>
+    </section>
+    
+    <section class="third-section-au">
+        <div>
+            <h2>President of OneQuantum Philippines</h2>
+            <img src="{{ url_for('static', filename='img/President.png') }}" alt="President">
+            <p>Bobby Corpus Jr.</p>
+        </div>
+
+        <div>
+            <p>
+                Sir Bobby Corpus is a highly experienced solution architect across Telecoms, Finance, and mission-cirtical enterprise systems
+            </p>
+
+            <p>
+                He is a community leader in open source software and developed a passion for quantum computing through interests in both Physics and Computer Sciecnce.
+            </p>
+        </div>
+    </section>
+
+    <footer> 
+        <div class="first-sec-footer">
+            <img src="{{ url_for('static', filename='img/Logo 1.png') }}" alt="quantum computer">
+            <p>© 2024 OneQuantum Philippines.</p>
+        </div>
+
+        <div>
+            <h2>OneQuantum Philippines</h2>
+            <p>Connect with us through:</p>
+            <a href="https://www.facebook.com/onequantum.ph" target="_blank" rel="noopener">
+                Facebook
+            </a>
+            <a href="https://www.facebook.com/onequantum.ph" target="_blank" rel="noopener">
+                Twitter
+            </a>
+            <a href="https://www.linkedin.com/company/onequantum-ph/" target="_blank" rel="noopener">
+                Linkedin
+            </a>
+        </div>
+    </footer>
 {% endblock %}
