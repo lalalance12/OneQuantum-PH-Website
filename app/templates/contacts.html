@@ -3,5 +3,59 @@
 {% block title %}Contacts{% endblock title %}
 
 {% block content %}
-    <h1>Contacts Page</h1>
+    <header>
+        <h2>Contacts</h2>
+        <div>  
+            <p>Email: example@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Address: 123 Example St, Example City, EX 12345</p>
+        </div>
+      
+    </header>
+
+    <section class="first-section-con">
+        <h3>Send us a message</h3>
+        <form action="/submit_contact_form" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section class="second-section-con">
+        <h3>Our Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.073394394073!2d121.0190003148235!3d14.651394989768768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8e3f3f3f3f3%3A0x3e3e3e3e3e3e3e3e!2sOneQuantum%20Philippines!5e0!3m2!1sen!2sph!4v1633663940733!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="third-section-con">
+        
+    </section>
+
+
+
+
+    <footer> 
+        <div class="first-sec-footer">
+            <img src="{{ url_for('static', filename='img/Logo 1.png') }}" alt="quantum computer">
+            <p>© 2024 OneQuantum Philippines.</p>
+        </div>
+
+        <div>
+            <h2>OneQuantum Philippines</h2>
+            <p>Connect with us through:</p>
+            <a href="https://www.facebook.com/onequantum.ph" target="_blank" rel="noopener">
+                Facebook
+            </a>
+            <a href="https://www.facebook.com/onequantum.ph" target="_blank" rel="noopener">
+                Twitter
+            </a>
+            <a href="https://www.linkedin.com/company/onequantum-ph/" target="_blank" rel="noopener">
+                Linkedin
+            </a>
+        </div>
+    </footer>
 {% endblock %}
