@@ -19,6 +19,9 @@ body {
     min-height: 600px; 
 }
 
+.main-logo{
+    font-size: 1.7rem;
+}
 /*HOME PAGE STYLE*/
 .intro {
     position: relative;
@@ -142,3 +145,7 @@ footer img{
 footer a{
     display: block;
 }
+
+
+/*ABOUT PAGE STYLE*/
+
