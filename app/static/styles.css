@@ -1,4 +1,4 @@
-/*NAV BAR STYLE*/
+/*NAV BAR STYLE ------------------------------------------------ */
 .add-marg{
     margin-left: 7%;
     margin-right: 230px 
@@ -22,7 +22,11 @@ body {
 .main-logo{
     font-size: 1.7rem;
 }
-/*HOME PAGE STYLE*/
+
+
+
+/*HOME PAGE STYLE ------------------------------------------------ */
+
 .intro {
     position: relative;
     margin:0;
@@ -147,5 +151,23 @@ footer a{
 }
 
 
-/*ABOUT PAGE STYLE*/
+/*ABOUT US PAGE STYLE ------------------------------------------------ */
+header{
+    padding-top: 70px;
+}
 
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    margin: 0 12% 0 12%;
+    padding: 10px;
+    border-color:#2b054a;
+}
+
+.first-section-au p{
+    text-indent: 50px;
+    text-align: justify;
+}
