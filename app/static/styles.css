@@ -164,10 +164,32 @@ header{
     width: 80%;
     margin: 0 12% 0 12%;
     padding: 10px;
-    border-color:#2b054a;
 }
 
 .first-section-au p{
     text-indent: 50px;
     text-align: justify;
+}
+
+.first-section-au{
+    background-color: rgb(246, 246, 246);
+}
+
+.container-2{
+    width: 80%;
+    margin: 0 12% 0 12%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 12% 0 12%;
+    padding: 50px;
+}
+
+.title-and-pic{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 10px 0 10px;
 }
